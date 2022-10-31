@@ -6,9 +6,9 @@ def fib(n):
     if n<10:
         return [1,1,2,3,5,8,13,21,34,55][n]
     elif n % 2==0:
-        return fib2(n//2)**2+fib2(n//2-1)**2
+        return fib(n//2)**2+fib(n//2-1)**2
     else:
-        return fib2(n//2)*(fib2(n//2+1)+fib2(n//2-1))
+        return fib(n//2)(fib2(n//2+1)+fib(n//2-1))
 
 
 n = int(input())
