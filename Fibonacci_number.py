@@ -8,7 +8,7 @@ def fib(n):
     elif n % 2==0:
         return fib(n//2)**2+fib(n//2-1)**2
     else:
-        return fib(n//2)(fib2(n//2+1)+fib(n//2-1))
+        return fib(n//2)(fib(n//2+1)+fib(n//2-1))
 
 
 n = int(input())
